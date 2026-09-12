@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme; the real theming (colors, typography, shapes) is applied
+         at runtime by ui/theme/Theme.kt using Compose Material3. This XML theme only
+         controls the pre-Compose window background / status bar to avoid a white flash. -->
+    <style name="Theme.Nova" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/nova_bg_light</item>
+        <item name="android:statusBarColor">@color/nova_bg_light</item>
+        <item name="android:navigationBarColor">@color/nova_bg_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
