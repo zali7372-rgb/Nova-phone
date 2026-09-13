@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Local-first app: conversation history and memory stay on-device and are intentionally
+     excluded from auto backup so they don't leave the device via cloud backup. -->
+<full-backup-content>
+    <exclude domain="database" path="." />
+    <exclude domain="sharedpref" path="." />
+</full-backup-content>
